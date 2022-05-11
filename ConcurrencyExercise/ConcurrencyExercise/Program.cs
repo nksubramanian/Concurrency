@@ -6,9 +6,14 @@ namespace ConcurrencyExercise
     {
         static void Main(string[] args)
         {
-            new ConOne().ConOneMain();
-            new ConOne().ConOneMain1();
-            Console.Read();
+            //new ConOne().ConOneMain();
+            //new ConOne().ConOneMain1();
+
+            Console.WriteLine("--------------------------------------------------------------");
+            //new ConThree().ConThreeMain();
+            new ConFour().ConFourMain();
+
+           Console.Read();
         }
     }
 }
